@@ -117,10 +117,9 @@ In addition to these most recent models, there are a number of other packages wh
 - `QueryExtraction/` demonstrates simple tools for performing automated query-based extraction from text, which can easily be run on MIMIC data.
 - `extractiveSummarization/` contains an implementation of Lexrank for MIMIC-III and PubMed. In the future we will make a test in tests.py that runs it on an EHR. It was developed by Sanya Nijhawan, B.S. CS '20.
 - `allennlp/` has scripts utilized by tests 6.1 and 6.2 in tests.py for efficiently calling functions in the allennlp library.
-- `classify/` contains CNNs for text classification. Made by Irene in 2018. Not integrated with anything else in the library.
 - `ehrkit/` contains scripts that enable interaction with MIMIC data
 - `pubmed/` contains scripts for downloading the PubMed corpus of biomedical research papers. Once downloaded, the papers are stored inside this directory.
-- `scripts/` apply various NLP methods to the EHRs in MIMIC. Developed by Jefferson Hsieh, Hong Kong University '20 and exchange student at Yale 2018-2019. (It's unclear if these scripts work.)
+- `scripts/` apply various NLP methods to the EHRs in MIMIC. Developed by Jefferson Hsieh, Hong Kong University '20 and exchange student at Yale 2018-2019. 
 - `tests/` has tests on the MIMIC dataset (in tests.py) and the PubMed corpus (in pubmed_tests.py).
 - `collated_tasks/` has a collection of tasks on MIMIC data, including extracting named entities, abbreviations, hyponyms & linked entities, machine translation, sentence segmentation, document clustering, and retrieving similar documents. It also contains auxiliary functions including retrieving notes from NOTEEVENTS.csv and creating vector representations using bag-of-words or pre-trained transformer models. Tutorials for tasks on non-MIMIC data are also available for de-identification, inference, and medical question answering. Developed by Keen during Fall 2021.
 
