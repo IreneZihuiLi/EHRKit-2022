@@ -11,6 +11,10 @@ This library aims at processing medical texts in electronic health records. We p
 
 Moreover, if users want to deal with general medical texts, we integrate third-party libraries, including [hugginface](https://huggingface.co/), [scispacy](https://allenai.github.io/scispacy/), [allennlp](https://github.com/allenai/allennlp), [stanza](https://stanfordnlp.github.io/stanza/), and so on. Please checkout the special verison of this library, [EHRKit-WF](https://github.com/Yale-LILY/EHRKit/tree/master/wrapper_functions).
 
+<p align="center">
+   <img src="https://github.com/Yale-LILY/EHRKit-2022/blob/main/ehrkit.jpg" alt="EHRKit"/>
+</p>
+
 ## Table of Contents
 
 1. [Updates](#updates)
