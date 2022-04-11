@@ -129,7 +129,9 @@ kit.get_clusters(k=2)
 - Section Detection
 - UMLS Concept Extraction
 
+## Pretrained Models
 
+Users can find the pretrained MT models using the UFAL dataset from [Hugging Face](https://huggingface.co/irenelizihui/scifive_ufal_MT_en_es/). 
 
 ## Troubleshooting 🔧
 
