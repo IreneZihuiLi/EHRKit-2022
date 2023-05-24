@@ -27,6 +27,7 @@ Moreover, if users want to deal with general medical texts, we integrate third-p
 
 
 ## Updates
+_24_05_2023_ - New Release Pretrained Models for Machine Translation. <br/>
 _15_03_2022_ - Merged a wrapper function folder to support off-shelf medical text processing. <br/>
 _10_03_2022_ - Made all tests avaiable in a ipynb file and updated the most recent version. <br/>
 _12_17_2021_ - New folder collated_tasks containing Fall 2021 functionalities added <br/>
