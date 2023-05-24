@@ -7,9 +7,13 @@
 
 [![Python 3.6.13](https://img.shields.io/badge/python-3.6.13-green.svg)](https://www.python.org/downloads/release/python-360/)
 
-This library aims at processing medical texts in electronic health records. We provide specific functions to access the [MIMIC-III](https://physionet.org/content/mimiciii-demo/) record efficiently; the method includes searching by record ID, searching similar records, searching with an input query. We also support functions for some NLP tasks, including abbreviation disambiguation, extractive and abstractive summarization. 
+This library aims at processing medical texts in electronic health records. We provide specific functions to access the [MIMIC-III](https://physionet.org/content/mimiciii-demo/) record efficiently; the method includes searching by record ID, searching similar records, searching with an input query. We also support functions for some NLP tasks, including abbreviation disambiguation, extractive and abstractive summarization. For more specific evaluaiton, please check this [pre-print]([url](https://arxiv.org/abs/2204.06604)).
 
 Moreover, if users want to deal with general medical texts, we integrate third-party libraries, including [hugginface](https://huggingface.co/), [scispacy](https://allenai.github.io/scispacy/), [allennlp](https://github.com/allenai/allennlp), [stanza](https://stanfordnlp.github.io/stanza/), and so on. Please checkout the special verison of this library, [EHRKit-WF](https://github.com/Yale-LILY/EHRKit/tree/master/wrapper_functions).
+
+<p align="center">
+   <img src="https://github.com/Yale-LILY/EHRKit-2022/blob/main/ehrkit.jpg" alt="EHRKit"/>
+</p>
 
 ## Table of Contents
 
@@ -23,6 +27,7 @@ Moreover, if users want to deal with general medical texts, we integrate third-p
 
 
 ## Updates
+_24_05_2023_ - New Release Pretrained Models for Machine Translation. <br/>
 _15_03_2022_ - Merged a wrapper function folder to support off-shelf medical text processing. <br/>
 _10_03_2022_ - Made all tests avaiable in a ipynb file and updated the most recent version. <br/>
 _12_17_2021_ - New folder collated_tasks containing Fall 2021 functionalities added <br/>
